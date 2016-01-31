@@ -43,6 +43,6 @@ pub fn hanoi(num_discs: u32, src: Peg, aux: Peg, dst: Peg) -> Vec<Move> {
         let mut m2 = hanoi(num_discs-1, aux, src, dst).clone();
         result.append(&mut m2);
     }
-    return result;
+    result
 }
 

@@ -2,3 +2,9 @@
 name = "hw01"
 version = "0.1.0"
 authors = ["Jacob Morzinski <jmorzins@mit.edu>"]
+
+[dependencies]
+clippy = {version = "*", optional = true}
+
+[features]
+default=[]
