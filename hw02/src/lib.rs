@@ -2,3 +2,4 @@
 #![cfg_attr(feature="clippy", plugin(clippy))]
 
 pub mod first;
+pub mod second;
