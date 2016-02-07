@@ -1,0 +1,3 @@
+# Uncomment to use a local-built rust-clippy plugin
+# paths = ["../../rust-clippy"]
+
