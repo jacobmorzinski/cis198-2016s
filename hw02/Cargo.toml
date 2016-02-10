@@ -9,4 +9,3 @@ clippy = { version = "*", optional = true }
 
 [features]
 default = []
-nightly = []
